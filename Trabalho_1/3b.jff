@@ -4,50 +4,50 @@
 	<automaton>
 		<!--The list of states.-->
 		<state id="0" name="q0">
-			<x>193.0</x>
-			<y>171.0</y>
+			<x>261.0</x>
+			<y>168.0</y>
 			<initial/>
 		</state>
 		<state id="1" name="q1">
-			<x>403.0</x>
-			<y>169.0</y>
+			<x>452.0</x>
+			<y>171.0</y>
 		</state>
 		<state id="2" name="q2">
-			<x>586.0</x>
-			<y>171.0</y>
+			<x>645.0</x>
+			<y>173.0</y>
 		</state>
 		<state id="3" name="q3">
 			<x>1202.0</x>
 			<y>173.0</y>
 		</state>
 		<state id="4" name="q4">
-			<x>1513.0</x>
-			<y>177.0</y>
+			<x>1420.0</x>
+			<y>173.0</y>
 			<final/>
 		</state>
 		<state id="5" name="q5">
-			<x>1200.0</x>
+			<x>1204.0</x>
 			<y>363.0</y>
 		</state>
 		<state id="6" name="q6">
-			<x>980.0</x>
-			<y>360.0</y>
+			<x>1034.0</x>
+			<y>362.0</y>
 		</state>
 		<state id="7" name="q7">
 			<x>1204.0</x>
-			<y>587.0</y>
+			<y>558.0</y>
 		</state>
 		<state id="8" name="q8">
-			<x>775.0</x>
+			<x>840.0</x>
 			<y>361.0</y>
 		</state>
 		<state id="9" name="q9">
-			<x>765.0</x>
-			<y>581.0</y>
+			<x>835.0</x>
+			<y>552.0</y>
 		</state>
 		<state id="10" name="q10">
-			<x>564.0</x>
-			<y>580.0</y>
+			<x>633.0</x>
+			<y>551.0</y>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
