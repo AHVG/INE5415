@@ -1,17 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>
-	<type>turing</type>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>turingbb</type>
 	<automaton>
 		<!--The list of states.-->
 		<block id="0" name="q0">
 			<tag>Machine0</tag>
-			<x>213.0</x>
-			<y>267.0</y>
-			<initial/>
-		</block>
-		<block id="1" name="q1">
-			<tag>Machine1</tag>
-			<x>337.0</x>
+			<x>322.0</x>
 			<y>268.0</y>
+			<initial/>
 		</block>
 		<block id="2" name="q2">
 			<tag>Machine2</tag>
@@ -20,8 +15,8 @@
 		</block>
 		<block id="3" name="q3">
 			<tag>Machine3</tag>
-			<x>671.0</x>
-			<y>263.0</y>
+			<x>684.0</x>
+			<y>262.0</y>
 		</block>
 		<block id="4" name="q4">
 			<tag>Machine4</tag>
@@ -30,19 +25,14 @@
 		</block>
 		<block id="5" name="q5">
 			<tag>Machine5</tag>
-			<x>581.0</x>
-			<y>353.0</y>
+			<x>684.0</x>
+			<y>394.0</y>
 			<final/>
 		</block>
 		<block id="6" name="q6">
 			<tag>Machine6</tag>
-			<x>672.0</x>
+			<x>687.0</x>
 			<y>137.0</y>
-		</block>
-		<block id="7" name="q7">
-			<tag>Machine7</tag>
-			<x>330.0</x>
-			<y>403.0</y>
 		</block>
 		<block id="8" name="q8">
 			<tag>Machine8</tag>
@@ -51,13 +41,6 @@
 		</block>
 		<!--The list of transitions.-->
 		<transition>
-			<from>3</from>
-			<to>4</to>
-			<read>0</read>
-			<write>x</write>
-			<move>R</move>
-		</transition>
-		<transition>
 			<from>4</from>
 			<to>6</to>
 			<controlx>818</controlx>
@@ -65,34 +48,6 @@
 			<read/>
 			<write/>
 			<move>L</move>
-		</transition>
-		<transition>
-			<from>4</from>
-			<to>8</to>
-			<read>0</read>
-			<write>0</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>6</to>
-			<read>x</read>
-			<write>x</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>6</to>
-			<read>0</read>
-			<write>0</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>3</to>
-			<read>0</read>
-			<write>0</write>
-			<move>R</move>
 		</transition>
 		<transition>
 			<from>6</from>
@@ -105,9 +60,16 @@
 		</transition>
 		<transition>
 			<from>3</from>
-			<to>5</to>
-			<read/>
-			<write/>
+			<to>4</to>
+			<read>0</read>
+			<write>x</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>0</read>
+			<write>0</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -116,6 +78,20 @@
 			<read>0</read>
 			<write>x</write>
 			<move>R</move>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>6</to>
+			<read>x</read>
+			<write>x</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>6</to>
+			<read>0</read>
+			<write>0</write>
+			<move>L</move>
 		</transition>
 		<transition>
 			<from>4</from>
@@ -139,41 +115,30 @@
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>0</read>
-			<write>0</write>
-			<move>S</move>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>7</to>
-			<controlx>854</controlx>
-			<controly>573</controly>
+			<from>3</from>
+			<to>5</to>
 			<read/>
 			<write/>
 			<move>R</move>
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>1</to>
+			<to>2</to>
 			<read>#</read>
 			<write>#</write>
 			<move>R</move>
 		</transition>
 		<transition>
-			<from>1</from>
-			<to>7</to>
-			<read/>
-			<write/>
+			<from>4</from>
+			<to>8</to>
+			<read>0</read>
+			<write>0</write>
 			<move>R</move>
 		</transition>
 		<!--The list of automata-->
 		<Machine8/>
-		<Machine7/>
 		<Machine0/>
 		<Machine2/>
-		<Machine1/>
 		<Machine4/>
 		<Machine3/>
 		<Machine6/>
